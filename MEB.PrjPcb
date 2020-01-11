@@ -123,23 +123,6 @@ GenerateClassCluster=0
 DocumentUniqueId=MIRJPBLC
 
 [Document6]
-DocumentPath=..\Seawolf 8 Boards\PowerConditioning.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QEWKBDZB
-
-[Document7]
 DocumentPath=..\Seawolf 8 Boards\ThrusterControl.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CYJMJIVE
 
-[Document8]
+[Document7]
 DocumentPath=MEB.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=MainBoard.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
