@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KJKNTPVR
 
 [Document5]
-DocumentPath=..\..\Public\Documents\Altium\Projects\Seawolf 8 Boards\MainBoard.SchDoc
+DocumentPath=..\..\Public\Documents\Altium\Projects\MEB\MainBoard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RWTOOFOX
 
 [Document6]
-DocumentPath=..\..\Public\Documents\Altium\Projects\Seawolf 8 Boards\Microcontroller.SchDoc
+DocumentPath=..\..\Public\Documents\Altium\Projects\MEB\Microcontroller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TFGXLFIY
 
 [Document7]
-DocumentPath=..\..\Public\Documents\Altium\Projects\Seawolf 8 Boards\ThrusterControl.SchDoc
+DocumentPath=..\..\Public\Documents\Altium\Projects\MEB\ThrusterControl.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +157,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CYJMJIVE
 
 [Document8]
-DocumentPath=..\..\Public\Documents\Altium\Projects\Seawolf 8 Boards\Power Control.SchDoc
+DocumentPath=..\..\Public\Documents\Altium\Projects\MEB\Power Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
