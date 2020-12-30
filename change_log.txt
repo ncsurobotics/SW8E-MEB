@@ -1,0 +1,22 @@
+12-30-2020
+Please implement the following changes...
+ 1. add silkscreen for the following reference designators:
+	- P15
+	- P13
+	- P11
+	- P31
+	- P16
+	- P12
+ 2. make the following reference designators visible when components are mounted:
+	- SW1
+	- SW2
+	- VR1
+	- MSP430 FR5969 Launchpad
+ 3. change the following reference designator descriptions:
+	- P11: "Thruster Kill" 	--> "BAMF"
+	- SW1: "ON" 			--> "Robot ON"
+	- SW2: "OFF" 			--> "Robot OFF"
+	- P31: "Robot On/Off" 	--> "Powerswitch"
+	- P16: "Power" 			--> "MEB Power"
+
+** to implement these changes you'll likely need to adjust position of unmentioned silk screen text
