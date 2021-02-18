@@ -18,5 +18,3 @@ Please implement the following changes...
  3. change the following reference designator silkscreens:
 	- P11: "Thruster Kill" 	--> "BAMF"
 	- P31: "Robot On/Off" 	--> "Power-switch"
- 4. Generate bill of materials
- 5. Run through DFM document
