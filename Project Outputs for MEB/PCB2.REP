@@ -15,19 +15,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : PCB2.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D15
-*************************************************************
-
-*************************************************************
 Generating : Bottom Solder
       File : PCB2.GBS
 
@@ -52,53 +39,15 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : PCB2.GTS
-
-    Adding Layer      : Top Solder
+Generating : Mechanical 1
+      File : PCB2.GM1
 
     Adding Layer      : Mechanical 1
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : PCB2.GTO
-
-    Adding Layer      : Top Overlay
 
     Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
     D15
 *************************************************************
 
@@ -124,6 +73,37 @@ Used DCodes :
     D46
     D47
     D48
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PCB2.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PCB2.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
 *************************************************************
 
 *************************************************************
@@ -157,5 +137,38 @@ Used DCodes :
     D46
     D47
     D48
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PCB2.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Mechanical 1
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
 *************************************************************
 
