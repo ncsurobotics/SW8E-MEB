@@ -330,62 +330,6 @@ DocumentUniqueId=FNNRVGTE
 DocumentPath=Project Outputs for MEB\Design Rule Check - MEB_PCB.html
 DItemRevisionGUID=
 
-[GeneratedDocument2]
-DocumentPath=Project Outputs for MEB\PCB2.DRL
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for MEB\PCB2.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for MEB\PCB2.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for MEB\PCB2.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for MEB\PCB2.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for MEB\PCB2.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for MEB\PCB2.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for MEB\PCB2.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MEB\PCB2.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for MEB\PCB2.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for MEB\PCB2.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MEB\PCB2.REP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for MEB\PCB2.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for MEB\PCB2.TXT
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
