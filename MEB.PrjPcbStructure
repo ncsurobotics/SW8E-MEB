@@ -1,4 +1,0 @@
-Record=TopLevelDocument|FileName=MainBoard.SchDoc
-Record=SheetSymbol|SourceDocument=MainBoard.SchDoc|Designator=MSP430|SchDesignator=MSP430|FileName=Microcontroller.SchDoc|SymbolType=Normal|RawFileName=Microcontroller.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=MainBoard.SchDoc|Designator=Power Control|SchDesignator=Power Control|FileName=Power Control.SchDoc|SymbolType=Normal|RawFileName=Power Control.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=MainBoard.SchDoc|Designator=Thruster Control|SchDesignator=Thruster Control|FileName=ThrusterControl.SchDoc|SymbolType=Normal|RawFileName=ThrusterControl.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
