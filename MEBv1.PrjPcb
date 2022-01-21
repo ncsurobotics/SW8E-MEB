@@ -81,7 +81,7 @@ GenerateClassCluster=0
 DocumentUniqueId=URGIVLFM
 
 [Document3]
-DocumentPath=MEBv1.SchDoc
+DocumentPath=MEBv1.1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -232,6 +232,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XSRIXIKT
+
+[Document12]
+DocumentPath=MEBv1.1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WHSYUQJE
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MEBv1\Design Rule Check - MEBv1.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
