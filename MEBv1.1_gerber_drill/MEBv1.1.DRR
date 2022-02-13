@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: MEBv1.1.PcbDoc   1/29/2022  5:33:35 PM
+NCDrill File Report For: MEBv1.1.PcbDoc   22/02/12  23:50:33
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,11 +8,12 @@ EIA File   : MEBv1.1.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      10mil (0.254mm)                                           Round             21        PTH        6.80inch (172.60mm)
-T2      40mil (1.021mm)                                           Round             10        PTH        1.06inch (27.00mm)
-T3      43mil (1.1mm)                                             Round             22        PTH        3.80inch (96.52mm)
-T4      118mil (3mm)                                              Round             2         NPTH       0.30inch (7.68mm)
+T1      10mil (0.254mm)                                           Round             22        PTH        0.00inch (0.00mm)
+T2      32mil (0.8mm)                                             Round             3         PTH        0.00inch (0.00mm)
+T3      40mil (1.021mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T4      43mil (1.1mm)                                             Round             22        PTH        0.00inch (0.00mm)
+T5      118mil (3mm)                                              Round             2         NPTH       0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              55
+Totals                                                                              59
 
 Total Processing Time (hh:mm:ss) : 00:00:00
