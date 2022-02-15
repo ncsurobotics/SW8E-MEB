@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Projects\MEB\MEBv1.1.PcbDoc
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\AD22\Projects\MEBv1\MEB\MEBv1.1.PcbDoc
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=7.00
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.00

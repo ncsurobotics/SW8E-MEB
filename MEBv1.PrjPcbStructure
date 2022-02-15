@@ -1,4 +1,0 @@
-Record=TopLevelDocument|FileName=MEBv1.1.SchDoc
-Record=SheetSymbol|SourceDocument=MEBv1.1.SchDoc|Designator=MSP-EXP430G2ET_interface|SchDesignator=MSP-EXP430G2ET_interface|FileName=MSP-EXP430G2ET_interface.SchDoc|SymbolType=Normal|RawFileName=MSP-EXP430G2ET_interface.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=MEBv1.1.SchDoc|Designator=power_regulation|SchDesignator=power_regulation|FileName=power_regulation.SchDoc|SymbolType=Normal|RawFileName=power_regulation.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=MEBv1.1.SchDoc|Designator=system_SSR_control|SchDesignator=system_SSR_control|FileName=system_SSR_control.SchDoc|SymbolType=Normal|RawFileName=system_SSR_control.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

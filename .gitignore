@@ -1,9 +1,6 @@
 History/
-Project Logs for MEBv1/
-Project Outputs for MEBv1/
+Project Logs*/
+Project Outputs*/
 ~*
 __Previews/
-debug.log
-*.OutJob
-*/Board Stack Report.XLT
-*.*.bak
+*.PrjPcbStructure
