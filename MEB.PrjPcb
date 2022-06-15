@@ -171,9 +171,13 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=WHSYUQJE
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for MEB\Design Rule Check - MEB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for MEBv1\Design Rule Check - MEBv1.html
 DItemRevisionGUID=
 
