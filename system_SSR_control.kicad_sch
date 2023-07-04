@@ -1,0 +1,2534 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0e9e7de3-d25c-402c-ad85-d7a8bd919c88)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "MEB-altium-import:3V3" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "3V3" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name '3V3'" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "3V3_0_0"
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy 1.27 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "3V3" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:GND" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "GND" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name 'GND'" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_0"
+        (polyline
+          (pts
+            (xy -2.54 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -3.302)
+            (xy 1.778 -3.302)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -4.064)
+            (xy 1.016 -4.064)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 -4.826)
+            (xy 0.254 -4.826)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:V_BAT" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "V_BAT" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name 'V_BAT'" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "V_BAT_0_0"
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy 1.27 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "V_BAT" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_0_171856-0002" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "CONN HEADER VERT 2POS 2.54MM" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C:_Users_byron_Documents_AltiumLL_SamacSys.PcbLib_SHDR2W99P0X254_1X2_493X635X818P" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_0_171856-0002_1_0"
+        (rectangle (start 15.24 2.54) (end 5.08 -5.08)
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_0_171857-0003" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "CONN HEADER R/A 3POS 2.54MM" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C:_Users_byron_Documents_AltiumLL_SamacSys.PcbLib_171857-0003" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_0_171857-0003_1_0"
+        (rectangle (start 15.24 2.54) (end 5.08 -7.62)
+          (stroke (width 0.254) (type solid))
+          (fill (type background))
+        )
+        (pin passive line (at 0 -5.08 0) (length 5.08)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 5.08)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 0 0) (length 5.08)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_0_N-MOSFET" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "MOSFET N-CH 60V 270MA TO236AB" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "NDS351AN" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_0_N-MOSFET_1_0"
+        (circle (center -0.762 0) (radius 2.032)
+          (stroke (width 0.0001) (type solid))
+          (fill (type color) (color 255 255 255 1))
+        )
+        (polyline
+          (pts
+            (xy -1.778 0)
+            (xy -3.048 0)
+          )
+          (stroke (width 0.254) (type solid) (color 33 6 236 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 1.27)
+            (xy -1.778 -1.27)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -1.016)
+            (xy -1.27 -1.524)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0.508)
+            (xy -1.27 -0.508)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.524)
+            (xy -1.27 1.016)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 0)
+            (xy -0.508 0.508)
+            (xy -0.508 -0.508)
+            (xy -1.016 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -2.54)
+            (xy 0 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "DRAIN" (effects (font (size 0 0))))
+          (number "D" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "GATE" (effects (font (size 0 0))))
+          (number "G" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "SOURCE" (effects (font (size 0 0))))
+          (number "S" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1002V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 10K OHM 1% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_1_ERJ-6ENF1002V_1_0"
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0.508 -0.508)
+            (xy -0.762 0.762)
+            (xy 0.508 2.032)
+            (xy 0 2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1003V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 100K OHM 1% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_1_ERJ-6ENF1003V_1_0"
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0.508 -0.508)
+            (xy -0.762 0.762)
+            (xy 0.508 2.032)
+            (xy 0 2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1400V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 140 OHM 1% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_1_ERJ-6ENF1400V_1_0"
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.762 -1.778)
+            (xy 0.508 -0.508)
+            (xy -0.762 0.762)
+            (xy 0.508 2.032)
+            (xy 0 2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_1_FSM2JSMA" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SWITCH TACTILE SPST-NO 0.05A 24V" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "FSM2JSMA" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_1_FSM2JSMA_1_0"
+        (polyline
+          (pts
+            (xy -2.54 2.54)
+            (xy -2.54 5.08)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy -1.27 1.016)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 1.27)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 5.08)
+            (xy 2.54 2.54)
+            (xy -2.54 2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -5.08)
+            (xy -2.54 -2.54)
+            (xy 2.54 -2.54)
+            (xy 2.54 -5.08)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at -2.54 -7.62 90) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -7.62 90) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 7.62 270) (length 2.54)
+          (name "3" (effects (font (size 0 0))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 7.62 270) (length 2.54)
+          (name "4" (effects (font (size 0 0))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_2_ERJ-6ENF1000V" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RES SMD 100 OHM 1% 1/8W 0805" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SMD-0805-RES" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_2_ERJ-6ENF1000V_1_0"
+        (polyline
+          (pts
+            (xy 1.778 -0.762)
+            (xy 2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.778 -0.762)
+            (xy 0.508 0.508)
+            (xy -0.762 -0.762)
+            (xy -2.032 0.508)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_3_ONSC-NMOS-S1G2D3-3" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "N-Channel 60 V 350mA (Tc) 350mW (Ta) Through Hole TO-92-3" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "ONSC-TO-92-3-29-11" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_3_ONSC-NMOS-S1G2D3-3_1_0"
+        (polyline
+          (pts
+            (xy -5.08 -7.62)
+            (xy -3.302 -7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 -5.08)
+            (xy -5.08 -7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.826 -2.54)
+            (xy -3.81 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 -5.08)
+            (xy -4.318 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -2.54)
+            (xy -2.032 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -5.08)
+            (xy -5.08 -5.08)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -5.08)
+            (xy -2.54 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -2.54 -2.032)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 -8.382)
+            (xy -1.778 -8.636)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 -6.858)
+            (xy -2.286 -6.604)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 -6.858)
+            (xy -2.032 -8.382)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.762 -5.08)
+            (xy -0.762 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.762 -5.08)
+            (xy 0 -5.08)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 -2.54)
+            (xy -1.27 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.254 -2.032)
+            (xy -4.826 -2.032)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -7.62)
+            (xy -2.032 -7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -5.08)
+            (xy 0 -7.62)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -2.54)
+            (xy -2.032 -4.064)
+            (xy -3.048 -4.064)
+            (xy -2.54 -2.54)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -2.032 -7.62)
+            (xy -3.302 -8.382)
+            (xy -3.302 -6.858)
+            (xy -2.032 -7.62)
+          )
+          (stroke (width 0) (type solid))
+          (fill (type outline))
+        )
+        (pin passive line (at -10.16 -5.08 0) (length 5.08)
+          (name "S" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -2.54 5.08 270) (length 5.08)
+          (name "G" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -5.08 180) (length 5.08)
+          (name "D" (effects (font (size 0 0))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MEB-altium-import:system_SSR_control_3_WE-LED_K1A2-2" (in_bom yes) (on_board yes)
+      (property "Reference" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "LED RED CLEAR 0805 SMD" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "system_SSR_control_3_WE-LED_K1A2-2_1_0"
+        (polyline
+          (pts
+            (xy 2.54 -3.556)
+            (xy 4.318 -5.334)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy -2.54 -2.54)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.556 -2.54)
+            (xy 5.334 -4.318)
+          )
+          (stroke (width 0.254) (type solid) (color 0 0 255 1))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy 0 -2.54)
+            (xy 2.54 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 4.318 -5.334)
+            (xy 3.81 -4.318)
+            (xy 3.302 -4.826)
+            (xy 4.318 -5.334)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 5.334 -4.318)
+            (xy 4.826 -3.302)
+            (xy 4.318 -3.81)
+            (xy 5.334 -4.318)
+          )
+          (stroke (width 0.254) (type solid))
+          (fill (type outline))
+        )
+        (pin passive line (at 0 -7.62 90) (length 5.08)
+          (name "K" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 5.08 270) (length 5.08)
+          (name "A" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+  )
+
+  (junction (at 185.42 156.6672) (diameter 0) (color 0 0 0 0)
+    (uuid 1386de83-cd6b-4e7e-b38d-e032adf88884)
+  )
+  (junction (at 195.58 154.1272) (diameter 0) (color 0 0 0 0)
+    (uuid 1b6b3348-86bf-4ae2-89f8-51b6ad36e707)
+  )
+  (junction (at 101.6 138.8872) (diameter 0) (color 0 0 0 0)
+    (uuid 2bdbcd39-ae95-4c57-b7d7-8810404a8cc0)
+  )
+  (junction (at 170.18 171.9072) (diameter 0) (color 0 0 0 0)
+    (uuid 2f74e319-41bf-4f63-a5b6-e20069f70671)
+  )
+  (junction (at 165.1 110.9472) (diameter 0) (color 0 0 0 0)
+    (uuid 4b2ad3e8-62d2-4c46-9693-e0ae03fcbc5c)
+  )
+  (junction (at 101.6 161.7472) (diameter 0) (color 0 0 0 0)
+    (uuid 4dde8520-5629-458a-bea3-47282da6a228)
+  )
+  (junction (at 129.54 83.0072) (diameter 0) (color 0 0 0 0)
+    (uuid 809e3c75-650d-4a57-be6a-8f3a44afaa33)
+  )
+  (junction (at 139.7 116.0272) (diameter 0) (color 0 0 0 0)
+    (uuid 8a9549af-fea4-4ebd-8059-966729571747)
+  )
+  (junction (at 149.86 116.0272) (diameter 0) (color 0 0 0 0)
+    (uuid 8bf3a58c-b3fa-400c-9439-d9b59f21e443)
+  )
+  (junction (at 139.7 83.0072) (diameter 0) (color 0 0 0 0)
+    (uuid aee4de2a-e36b-4a6b-82e4-ed526af72bef)
+  )
+  (junction (at 137.16 154.1272) (diameter 0) (color 0 0 0 0)
+    (uuid afa047f0-c5df-49b1-8b47-4783900a1b3c)
+  )
+  (junction (at 119.38 110.9472) (diameter 0) (color 0 0 0 0)
+    (uuid b76a86cd-fc5e-4eff-bab5-79a92653ce3b)
+  )
+  (junction (at 165.1 90.6272) (diameter 0) (color 0 0 0 0)
+    (uuid cdc10688-3fe3-4aef-b70c-b5db23df9151)
+  )
+  (junction (at 167.64 108.4072) (diameter 0) (color 0 0 0 0)
+    (uuid d31aa210-bcaf-4caa-bfa4-12d603210c04)
+  )
+  (junction (at 111.76 138.8872) (diameter 0) (color 0 0 0 0)
+    (uuid e05c9c75-c3d4-42cc-a950-4ed7ba4552d0)
+  )
+  (junction (at 119.38 90.6272) (diameter 0) (color 0 0 0 0)
+    (uuid e98debbd-586d-4003-abd9-902ff11c40bb)
+  )
+  (junction (at 111.76 161.7472) (diameter 0) (color 0 0 0 0)
+    (uuid f40ac84a-4e83-4c3f-b244-b45b0cb141fb)
+  )
+  (junction (at 165.1 83.0072) (diameter 0) (color 0 0 0 0)
+    (uuid fe516e9d-7dce-4c98-b78c-35d328eb3986)
+  )
+
+  (wire (pts (xy 198.12 169.3672) (xy 195.58 169.3672))
+    (stroke (width 0.254) (type default))
+    (uuid 08ccb11c-308b-486f-8f8e-51781cda586f)
+  )
+  (wire (pts (xy 180.34 80.4672) (xy 177.8 80.4672))
+    (stroke (width 0.254) (type default))
+    (uuid 0a2dfadb-ae27-4fd6-b959-3402953b5463)
+  )
+  (wire (pts (xy 111.76 138.8872) (xy 111.76 141.4272))
+    (stroke (width 0.254) (type default))
+    (uuid 0cba0144-4eeb-46d7-afcf-8d478929ab4f)
+  )
+  (wire (pts (xy 165.1 90.6272) (xy 167.64 90.6272))
+    (stroke (width 0.254) (type default))
+    (uuid 0cc7956f-a154-4398-9e2e-c16f4ab9655f)
+  )
+  (wire (pts (xy 198.12 171.9072) (xy 193.04 171.9072))
+    (stroke (width 0.254) (type default))
+    (uuid 12997e98-edd0-4bb8-9568-26e9a4d3b5f2)
+  )
+  (wire (pts (xy 119.38 83.0072) (xy 119.38 90.6272))
+    (stroke (width 0.254) (type default))
+    (uuid 135785ab-1580-4031-bf45-e35b3c116e1d)
+  )
+  (wire (pts (xy 137.16 154.1272) (xy 137.16 161.7472))
+    (stroke (width 0.254) (type default))
+    (uuid 13ded54d-673b-465f-b800-3f4bbedd221b)
+  )
+  (wire (pts (xy 139.7 83.0072) (xy 139.7 93.1672))
+    (stroke (width 0.254) (type default))
+    (uuid 1755e5a7-eccd-4ae4-a6f9-c30f607e12b0)
+  )
+  (wire (pts (xy 129.54 83.0072) (xy 129.54 75.3872))
+    (stroke (width 0.254) (type default))
+    (uuid 20c37418-117b-44f9-b579-6a681f9de8dc)
+  )
+  (wire (pts (xy 119.38 110.9472) (xy 121.92 110.9472))
+    (stroke (width 0.254) (type default))
+    (uuid 2231bab0-91b1-4501-927d-56e12e8bd8d8)
+  )
+  (wire (pts (xy 111.76 161.7472) (xy 119.38 161.7472))
+    (stroke (width 0.254) (type default))
+    (uuid 2ad2edb0-10a1-4edb-8588-e892fc908265)
+  )
+  (wire (pts (xy 101.6 141.4272) (xy 101.6 138.8872))
+    (stroke (width 0.254) (type default))
+    (uuid 2d10ffb6-609e-4a83-887a-ea0eba7f16c3)
+  )
+  (wire (pts (xy 86.36 161.7472) (xy 101.6 161.7472))
+    (stroke (width 0.254) (type default))
+    (uuid 2d1b5212-96ac-441d-a2f4-8e6b08c4ee84)
+  )
+  (wire (pts (xy 101.6 161.7472) (xy 101.6 151.5872))
+    (stroke (width 0.254) (type default))
+    (uuid 2f78fc77-8a68-46a9-bee1-32d3e9d0d169)
+  )
+  (wire (pts (xy 177.8 80.4672) (xy 177.8 85.5472))
+    (stroke (width 0.254) (type default))
+    (uuid 323d7f27-c232-45d2-8ce4-26fc315682b2)
+  )
+  (wire (pts (xy 222.25 159.2072) (xy 198.12 159.2072))
+    (stroke (width 0.254) (type default))
+    (uuid 395ba65c-ae2c-41bf-9c1f-93a70bb8b4c4)
+  )
+  (wire (pts (xy 116.84 90.6272) (xy 119.38 90.6272))
+    (stroke (width 0.254) (type default))
+    (uuid 3e209e04-619e-4b4a-875b-97646f672896)
+  )
+  (wire (pts (xy 185.42 156.6672) (xy 222.25 156.6672))
+    (stroke (width 0.254) (type default))
+    (uuid 40a43f30-6607-4516-add5-153d5cdb5d07)
+  )
+  (wire (pts (xy 167.64 108.4072) (xy 167.64 110.9472))
+    (stroke (width 0.254) (type default))
+    (uuid 421f3ed4-f5f3-4bb7-b049-af8229f407f9)
+  )
+  (wire (pts (xy 137.16 151.5872) (xy 137.16 154.1272))
+    (stroke (width 0.254) (type default))
+    (uuid 42c011bd-d133-4f11-aad9-d454765df1b0)
+  )
+  (wire (pts (xy 129.54 83.0072) (xy 119.38 83.0072))
+    (stroke (width 0.254) (type default))
+    (uuid 43593dce-749c-423c-884f-4e43a4008b3d)
+  )
+  (wire (pts (xy 167.64 110.9472) (xy 165.1 110.9472))
+    (stroke (width 0.254) (type default))
+    (uuid 54906eb1-b8bf-496f-9560-cf0ea6ac9b9f)
+  )
+  (wire (pts (xy 111.76 138.8872) (xy 101.6 138.8872))
+    (stroke (width 0.254) (type default))
+    (uuid 59863cfc-2bab-4f94-b97a-247e41500495)
+  )
+  (wire (pts (xy 165.1 75.3872) (xy 149.86 75.3872))
+    (stroke (width 0.254) (type default))
+    (uuid 5da8a409-c4d8-4c1b-a421-8828683962df)
+  )
+  (wire (pts (xy 167.64 105.8672) (xy 167.64 108.4072))
+    (stroke (width 0.254) (type default))
+    (uuid 65a8bb22-a919-400d-b884-8e9180f14538)
+  )
+  (wire (pts (xy 170.18 171.9072) (xy 170.18 169.3672))
+    (stroke (width 0.254) (type default))
+    (uuid 67abe3a3-6706-4bf9-a3f3-367fe9478800)
+  )
+  (wire (pts (xy 116.84 108.4072) (xy 116.84 110.9472))
+    (stroke (width 0.254) (type default))
+    (uuid 68999063-f999-47c1-8564-b1dea523744f)
+  )
+  (wire (pts (xy 180.34 77.9272) (xy 170.18 77.9272))
+    (stroke (width 0.254) (type default))
+    (uuid 69cf60fa-61fd-4f40-ba5b-a196b80dfdfe)
+  )
+  (wire (pts (xy 162.56 93.1672) (xy 162.56 90.6272))
+    (stroke (width 0.254) (type default))
+    (uuid 6d3794be-3e47-4ca1-bcea-5eb59f68c3ad)
+  )
+  (wire (pts (xy 127 151.5872) (xy 127 138.8872))
+    (stroke (width 0.254) (type default))
+    (uuid 6d4415ae-c5cb-4d9e-abce-c6a659759e2c)
+  )
+  (wire (pts (xy 119.38 110.9472) (xy 119.38 116.0272))
+    (stroke (width 0.254) (type default))
+    (uuid 70b204fc-02bc-41d3-a005-378d514cd40b)
+  )
+  (wire (pts (xy 114.3 75.3872) (xy 116.84 75.3872))
+    (stroke (width 0.254) (type default))
+    (uuid 74fb8887-f509-4c44-b17c-5f4da30c8b0a)
+  )
+  (wire (pts (xy 170.18 156.6672) (xy 185.42 156.6672))
+    (stroke (width 0.254) (type default))
+    (uuid 7915d27b-b574-4798-a577-484296a2356d)
+  )
+  (wire (pts (xy 165.1 90.6272) (xy 165.1 83.0072))
+    (stroke (width 0.254) (type default))
+    (uuid 7c3869e3-61df-45cc-ac0f-f39ed78b1b91)
+  )
+  (wire (pts (xy 139.7 116.0272) (xy 139.7 118.5672))
+    (stroke (width 0.254) (type default))
+    (uuid 7cef2256-150a-4d4d-88b9-f6d26d7658aa)
+  )
+  (wire (pts (xy 185.42 161.7472) (xy 185.42 156.6672))
+    (stroke (width 0.254) (type default))
+    (uuid 7f0ab989-ebb4-498f-9bb7-366270e7e97c)
+  )
+  (wire (pts (xy 149.86 116.0272) (xy 139.7 116.0272))
+    (stroke (width 0.254) (type default))
+    (uuid 805ac4b3-a65a-420c-9408-54e3b2dc94d1)
+  )
+  (wire (pts (xy 195.58 169.3672) (xy 195.58 154.1272))
+    (stroke (width 0.254) (type default))
+    (uuid 8106280d-9aa9-4304-864f-d10866ce6edc)
+  )
+  (wire (pts (xy 101.6 161.7472) (xy 111.76 161.7472))
+    (stroke (width 0.254) (type default))
+    (uuid 8314891e-0d9c-4a07-92c2-48d1d240cbbe)
+  )
+  (wire (pts (xy 127 138.8872) (xy 111.76 138.8872))
+    (stroke (width 0.254) (type default))
+    (uuid 854ed6fb-088c-4f76-8fcf-84076edef7d4)
+  )
+  (wire (pts (xy 165.1 83.0072) (xy 165.1 75.3872))
+    (stroke (width 0.254) (type default))
+    (uuid 88431c9c-6a53-4072-aaf6-443b2f9badb4)
+  )
+  (wire (pts (xy 167.64 90.6272) (xy 167.64 93.1672))
+    (stroke (width 0.254) (type default))
+    (uuid 88883e80-81ed-4c2f-bbc1-93c016dae399)
+  )
+  (wire (pts (xy 116.84 93.1672) (xy 116.84 90.6272))
+    (stroke (width 0.254) (type default))
+    (uuid 8cdfa254-d72f-489a-aedc-2c03c7ed9073)
+  )
+  (wire (pts (xy 170.18 174.4472) (xy 170.18 171.9072))
+    (stroke (width 0.254) (type default))
+    (uuid 98b73f41-2a4a-4a24-b3d6-f4d9be98dd21)
+  )
+  (wire (pts (xy 137.16 154.1272) (xy 195.58 154.1272))
+    (stroke (width 0.254) (type default))
+    (uuid 98df02c3-286b-4c32-8b25-130948e11d78)
+  )
+  (wire (pts (xy 137.16 138.8872) (xy 137.16 141.4272))
+    (stroke (width 0.254) (type default))
+    (uuid a2321608-fd64-4160-ba85-c9f2c28b0d39)
+  )
+  (wire (pts (xy 165.1 110.9472) (xy 165.1 116.0272))
+    (stroke (width 0.254) (type default))
+    (uuid a3fe63de-150f-4e71-93ab-7c5dd43721f8)
+  )
+  (wire (pts (xy 165.1 116.0272) (xy 149.86 116.0272))
+    (stroke (width 0.254) (type default))
+    (uuid ad568716-99ef-46e0-80e5-90094c5c0eb5)
+  )
+  (wire (pts (xy 111.76 151.5872) (xy 111.76 149.0472))
+    (stroke (width 0.254) (type default))
+    (uuid ae5aac49-4e94-44d4-97ab-c174f709d04a)
+  )
+  (wire (pts (xy 129.54 75.3872) (xy 127 75.3872))
+    (stroke (width 0.254) (type default))
+    (uuid b7279f08-833e-4be9-96f9-2946443a8c18)
+  )
+  (wire (pts (xy 137.16 161.7472) (xy 134.62 161.7472))
+    (stroke (width 0.254) (type default))
+    (uuid b96fddaf-7a52-47c9-90f0-518fcad03a4b)
+  )
+  (wire (pts (xy 170.18 159.2072) (xy 170.18 156.6672))
+    (stroke (width 0.254) (type default))
+    (uuid bc7f2959-1224-4838-9ae1-33837afed71d)
+  )
+  (wire (pts (xy 119.38 90.6272) (xy 121.92 90.6272))
+    (stroke (width 0.254) (type default))
+    (uuid beed30ac-427c-4477-ab66-17931b3992d2)
+  )
+  (wire (pts (xy 139.7 103.3272) (xy 139.7 116.0272))
+    (stroke (width 0.254) (type default))
+    (uuid c65cdfb8-af73-438b-8e0b-1d38930897c1)
+  )
+  (wire (pts (xy 116.84 110.9472) (xy 119.38 110.9472))
+    (stroke (width 0.254) (type default))
+    (uuid c856f65a-e7d8-487a-910a-90a735a12245)
+  )
+  (wire (pts (xy 149.86 75.3872) (xy 149.86 77.9272))
+    (stroke (width 0.254) (type default))
+    (uuid c9ee7772-d068-40da-b0d3-b62ddb335c60)
+  )
+  (wire (pts (xy 144.78 83.0072) (xy 139.7 83.0072))
+    (stroke (width 0.254) (type default))
+    (uuid d7bbad8f-238c-41da-8a0a-a17891b1b630)
+  )
+  (wire (pts (xy 119.38 116.0272) (xy 139.7 116.0272))
+    (stroke (width 0.254) (type default))
+    (uuid dae23e3d-564e-4935-8994-275911ec2277)
+  )
+  (wire (pts (xy 121.92 90.6272) (xy 121.92 93.1672))
+    (stroke (width 0.254) (type default))
+    (uuid dc306f45-62ae-4658-bb3f-00d67fcbe56c)
+  )
+  (wire (pts (xy 177.8 171.9072) (xy 170.18 171.9072))
+    (stroke (width 0.254) (type default))
+    (uuid df20e315-2ac3-4cca-b1b1-3edd4a1f8947)
+  )
+  (wire (pts (xy 165.1 83.0072) (xy 180.34 83.0072))
+    (stroke (width 0.254) (type default))
+    (uuid df7fc640-4069-4743-b406-01dae82d33af)
+  )
+  (wire (pts (xy 162.56 110.9472) (xy 162.56 108.4072))
+    (stroke (width 0.254) (type default))
+    (uuid e2891917-e351-4fb4-adda-1df9a1182255)
+  )
+  (wire (pts (xy 195.58 154.1272) (xy 222.25 154.1272))
+    (stroke (width 0.254) (type default))
+    (uuid e468b6a7-b92b-4732-a84b-b4ea3c6b28ee)
+  )
+  (wire (pts (xy 139.7 83.0072) (xy 129.54 83.0072))
+    (stroke (width 0.254) (type default))
+    (uuid e885272e-0211-4962-a35b-d638b10aa5f8)
+  )
+  (wire (pts (xy 162.56 90.6272) (xy 165.1 90.6272))
+    (stroke (width 0.254) (type default))
+    (uuid ebc1d4e8-3998-455a-a4db-00321184a7fb)
+  )
+  (wire (pts (xy 121.92 110.9472) (xy 121.92 108.4072))
+    (stroke (width 0.254) (type default))
+    (uuid ec3477e6-7a7b-4e20-acfa-7c441806c862)
+  )
+  (wire (pts (xy 149.86 116.0272) (xy 149.86 88.0872))
+    (stroke (width 0.254) (type default))
+    (uuid ef6d2e69-93f0-4693-8fd2-4f15ff4f2a5d)
+  )
+  (wire (pts (xy 165.1 110.9472) (xy 162.56 110.9472))
+    (stroke (width 0.254) (type default))
+    (uuid f0b56f06-16e1-4ffa-86e3-6a0b51a5bebc)
+  )
+
+  (image (at 234.039 112.8847) (scale 2.10353)
+    (uuid 8114b09c-9008-49c2-936d-8a3ea71c3464)
+    (data
+      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
+    )
+  )
+
+  (text "" (at 58.42 143.9672 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 60114a1a-05a5-4349-b0ba-53b1eb3233ac)
+  )
+  (text "System Switch Header" (at 181.61 70.3072 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6ebec5ef-e8e1-4d5b-bb60-ab7e819f357f)
+  )
+  (text "SSR and Software Arm Header" (at 219.71 147.7772 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7624d3ef-668c-4128-8114-3cd7eb6f672a)
+  )
+  (text "ON SWITCH" (at 170.18 100.7872 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d2307130-a3b7-4b3d-ad5a-0feaa5ac6514)
+  )
+  (text "Kill Switch Header" (at 200.66 180.7972 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d360a62d-4453-44c2-b662-d2c5805b3c07)
+  )
+  (text "OFF SWITCH" (at 96.52 100.7872 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e51a4ad3-c7b7-4c01-a1cf-eb98a892b7af)
+  )
+
+  (label "SYS_SW" (at 119.38 83.0072 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 05ca950f-8ada-4b4d-95a5-c026ec4863ac)
+  )
+  (label "SYS_SSR_P4_COIL-" (at 149.86 75.3872 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0eb96c92-bbce-4929-9b42-bae2f397441a)
+  )
+  (label "THR_SSR_P4_COIL-" (at 198.12 154.1272 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 29112de0-bfac-4648-8f28-a2db763a32d1)
+  )
+  (label "SYS_SSR_P4_COIL-" (at 198.12 159.2072 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 827568aa-218a-44ab-93ec-ef1c22d29d55)
+  )
+  (label "SW_ARM" (at 198.12 156.6672 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d49c094e-b5d3-4b49-8759-bdcfb4286e56)
+  )
+  (label "SYS_SW" (at 170.18 77.9272 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ea31cede-8d01-465f-a71b-8b113e70bcb3)
+  )
+
+  (hierarchical_label "THR_KILLED" (shape output) (at 86.36 161.7472 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8288ca8e-a90d-460d-87e6-fc579041642f)
+  )
+  (hierarchical_label "SYS_ENABLE" (shape input) (at 114.3 75.3872 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d3dc0d59-ff3b-4551-b700-9f5e3ccffbf2)
+  )
+
+  (symbol (lib_id "MEB-altium-import:GND") (at 170.18 174.4472 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0107d374-7647-4429-aed9-ebbfa49385d4)
+    (property "Reference" "#PWR0123" (at 170.18 174.4472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 170.18 180.7972 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 170.18 174.4472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 170.18 174.4472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid fe54cee0-3f07-46b8-bb49-84f16f26b41a))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "#PWR0123") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:3V3") (at 101.6 138.8872 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 02c0d688-5d64-4205-a4df-66806399c107)
+    (property "Reference" "#PWR0124" (at 101.6 138.8872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "3V3" (at 101.6 135.0772 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 101.6 138.8872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 101.6 138.8872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 5c884d96-7571-4af2-88a6-75906a2007a1))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "#PWR0124") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1002V") (at 139.7 98.2472 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 074333d0-0c3c-41f7-88d6-e88acf785ccd)
+    (property "Reference" "R2" (at 140.462 97.9932 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "10k" (at 140.462 100.5332 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 139.7 98.2472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 139.7 98.2472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "YAGEO" (at 138.684 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "10k" (at 138.684 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 155°C" (at 138.684 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "0805 (2012 Metric)" (at 138.684 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "RC0805JR-0710KL" (at 138.684 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" (at 138.684 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 138.684 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 50fcd482-6e6b-4fd1-ba29-462b924f0b2f))
+    (pin "2" (uuid 01ff679d-50b9-47c3-a47f-ec63e963b91e))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:GND") (at 139.7 118.5672 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 08198ba5-ec76-4c05-bdc8-277c1f60a317)
+    (property "Reference" "#PWR0122" (at 139.7 118.5672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 139.7 124.9172 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 139.7 118.5672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 139.7 118.5672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 83e22467-c142-4556-bc6b-2bd69a5ae473))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "#PWR0122") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_0_171856-0002") (at 198.12 169.3672 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 191fe75d-b6c0-455c-8be5-8333ec0430f8)
+    (property "Reference" "J2" (at 203.2 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "171856-0002" (at 203.2 176.9872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SHDR2W99P0X254_1X2_493X635X818P" (at 198.12 169.3672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 198.12 169.3672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DATASHEET LINK" "https://componentsearchengine.com//171856-0002.pdf" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "HEIGHT" "8.18mm" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUSER2 PART NUMBER" "538-171856-0002" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUSER2 PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-171856-0002" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER_NAME" "Molex" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER_PART_NUMBER" "" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "Molex" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "171856-0002" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "1x2" (at 197.612 166.8272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 9771ab35-352c-47bc-ac8e-328fc5fdb7ef))
+    (pin "2" (uuid e5ab79b5-a632-4c10-aa36-c210d06e7066))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_0_171857-0003") (at 222.25 154.1272 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 29617075-016d-471e-b171-2f89f4c36163)
+    (property "Reference" "J3" (at 227.33 151.5872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "171857-0003" (at 227.33 164.2872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:171857-0003" (at 222.25 154.1272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 222.25 154.1272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DATASHEET LINK" "https://componentsearchengine.com//171857-0003.pdf" (at 221.742 151.5872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUSER2 PART NUMBER" "538-171857-0003" (at 221.742 151.5872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUSER2 PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-171857-0003" (at 221.742 151.5872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER_NAME" "Molex" (at 221.742 151.5872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER_PART_NUMBER" "" (at 221.742 151.5872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "Molex" (at 221.742 149.0472 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "171857-0003" (at 221.742 149.0472 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "1x3" (at 221.742 149.0472 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid dfeeb428-9adc-487c-8cda-0793fa2859ef))
+    (pin "2" (uuid 4f73d623-4ede-4871-8b94-decfbb3874b0))
+    (pin "3" (uuid 137c27a3-d8e4-44ac-a8dc-3cfa8b2b9b02))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "J3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_3_WE-LED_K1A2-2") (at 111.76 154.1272 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2c000e40-411a-4404-9638-91ece4d7c73c)
+    (property "Reference" "D1" (at 117.348 156.4132 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "1.9V" (at 117.348 158.9532 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:0805_A" (at 111.76 154.1272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 111.76 154.1272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "Würth Elektronik" (at 108.966 148.5392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "150080SS75000" (at 108.966 148.5392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "1.9V" (at 108.966 148.5392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-40°C ~ 85°C" (at 108.966 148.5392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "0805 (2012 Metric)" (at 108.966 148.5392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "https://www.we-online.com/katalog/datasheet/150080SS75000.pdf" (at 108.966 148.5392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 108.966 148.5392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid a9180dfb-9b89-4a83-a33f-388af547f22d))
+    (pin "2" (uuid 366a8c25-4905-4d9a-bb63-41e2c88af261))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_3_ONSC-NMOS-S1G2D3-3") (at 129.54 156.6672 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3b561bad-d02c-4f5a-b730-80974ef735c6)
+    (property "Reference" "Q3" (at 124.206 168.0972 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "2N7000" (at 124.206 170.6372 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:ONSC-TO-92-3-29-11" (at 129.54 156.6672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 129.54 156.6672 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "On Semiconductor" (at 118.872 151.0792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "http://www.onsemi.com/pub_link/Collateral/2N7000-D.PDF" (at 118.872 151.0792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "2N7000" (at 118.872 151.0792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 150°C" (at 118.872 151.0792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "TO-92" (at 118.872 151.0792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 118.872 151.0792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "1V" (at 118.872 151.0792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 52793674-10ba-4d32-809e-0ce02ca2bcf4))
+    (pin "2" (uuid 8b2a337f-b9f9-4a4e-947f-b10c6ebe9e12))
+    (pin "3" (uuid 4424365d-e1fd-466b-a5c0-490ea1b99bb8))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "Q3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_3_ONSC-NMOS-S1G2D3-3") (at 187.96 166.8272 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 49c299a3-fee9-4841-b266-dd364b757cfd)
+    (property "Reference" "Q2" (at 182.626 178.2572 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "2N7000" (at 182.626 180.7972 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:ONSC-TO-92-3-29-11" (at 187.96 166.8272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 187.96 166.8272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "On Semiconductor" (at 177.292 161.2392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "http://www.onsemi.com/pub_link/Collateral/2N7000-D.PDF" (at 177.292 161.2392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "2N7000" (at 177.292 161.2392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 150°C" (at 177.292 161.2392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "TO-92" (at 177.292 161.2392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 177.292 161.2392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "1V" (at 177.292 161.2392 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid b3e5b6b1-9c8d-4157-a73e-e5a58f4da16a))
+    (pin "2" (uuid 28a2e48e-066b-4aed-84f4-abb82ec7ae38))
+    (pin "3" (uuid 0d0b8bbb-2c00-44b5-8b98-50fc9d4c8e04))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "Q2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_1_FSM2JSMA") (at 165.1 100.7872 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 57845e49-b45c-4a3b-9b9e-9fa53a576cc7)
+    (property "Reference" "SW2" (at 157.48 100.7872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "FSM2JSMA" (at 161.798 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "AltiumImport:FSM2JSMA" (at 165.1 100.7872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 165.1 100.7872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "FSM2JSMA" (at 152.4 103.3272 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "ROHS" "YES" (at 161.798 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "TE Connectivity" (at 152.4 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "24V" (at 152.4 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-35°C ~ 85°C" (at 152.4 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "Non-standard" (at 152.4 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" (at 152.4 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid ee54c8f0-9f88-4d8e-8ae2-da3559c502d4))
+    (pin "2" (uuid 6f94105c-0a19-4cfe-8cbd-cf4e85cfeb4e))
+    (pin "3" (uuid a3701a6c-e1fa-4891-a624-0b1dc1448a25))
+    (pin "4" (uuid f03d2884-e1b7-4df7-888f-8c8483453263))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "SW2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1003V") (at 170.18 164.2872 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5b09b81e-9a7b-4308-aa17-c359c457a092)
+    (property "Reference" "R6" (at 170.942 164.0332 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "100k" (at 170.942 166.5732 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 170.18 164.2872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 170.18 164.2872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PART NUMBER" "ERJ-6ENF1003V" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEETS" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1003V+7+WW" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "IMAGE" "//media.digikey.com/Renders/Panasonic%20Renders/ERJ-0805%20Pkg.jpg" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DIGI-KEY PART NUMBER" "P100KCCT-ND" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "Panasonic Electronic Components" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "QUANTITY AVAILABLE" "760677" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "FACTORY STOCK" "0" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "UNIT PRICE (USD)" "0.00729" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "@ QTY" "1500" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MINIMUM QUANTITY" "1" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGING" "Cut Tape (CT)" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "SERIES" "ERJ" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PART STATUS" "Active" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "100k" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "TOLERANCE" "±1%" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "POWER (WATTS)" "0.125W, 1/8W" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPOSITION" "Thick Film" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "FEATURES" "Automotive AEC-Q200" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "TEMPERATURE COEFFICIENT" "±100ppm/°C" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 155°C" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "0805 (2012 Metric)" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "SUPPLIER DEVICE PACKAGE" "0805" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "SIZE / DIMENSION" "0.079\" L x 0.049\" W (2.00mm x 1.25mm)" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "HEIGHT - SEATED (MAX)" "0.028\" (0.70mm)" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "NUMBER OF TERMINATIONS" "2" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "FAILURE RATE" "-" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "ERJ-6ENF1003V" (at 169.164 158.6992 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 8ef1adac-7caa-414f-880f-4750282dc0ae))
+    (pin "2" (uuid 030fa62e-eff7-4b0e-9950-56b1426d4989))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1003V") (at 101.6 146.5072 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5cdc197f-9f8e-4baa-af82-9f7fda4f5f46)
+    (property "Reference" "R3" (at 102.362 146.2532 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "100k" (at 102.362 148.7932 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 101.6 146.5072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 101.6 146.5072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "Panasonic Electronic Components" (at 100.584 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "100k" (at 100.584 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 155°C" (at 100.584 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "0805 (2012 Metric)" (at 100.584 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1003V+7+WW" (at 100.584 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "ERJ-6ENF1003V" (at 100.584 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 100.584 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid d9c83d65-4d69-4d87-a1dc-994c67101904))
+    (pin "2" (uuid 498ecec2-8c4f-4560-8c4c-4b599e48e059))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_2_ERJ-6ENF1000V") (at 121.92 75.3872 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 657569b2-657a-44db-b83d-92e8777f6c15)
+    (property "Reference" "R1" (at 119.126 74.6252 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "100" (at 119.126 78.9432 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 121.92 75.3872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 121.92 75.3872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "YAGEO" (at 116.332 74.6252 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "100" (at 116.332 74.6252 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 155°C" (at 116.332 74.6252 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "0805 (2012 Metric)" (at 116.332 74.6252 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "RC0805FR-07100RL" (at 116.332 72.0852 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" (at 116.332 72.0852 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 116.332 72.0852 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid cb8c2acb-2932-41b9-bfe3-550449f7d4cc))
+    (pin "2" (uuid 63f8579c-dd1f-4cd2-a81f-f5528d56df38))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_1_FSM2JSMA") (at 119.38 100.7872 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 798d1516-31d0-4c93-a787-d676a3999f23)
+    (property "Reference" "SW1" (at 122.682 97.9932 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "FSM2JSMA" (at 116.078 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Footprint" "AltiumImport:FSM2JSMA" (at 119.38 100.7872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 119.38 100.7872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "FSM2JSMA" (at 122.682 100.5332 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "ROHS" "YES" (at 116.078 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "TE Connectivity" (at 116.078 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "24V" (at 116.078 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-35°C ~ 85°C" (at 116.078 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "Non-standard" (at 116.078 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=CS&DocLang=English" (at 116.078 92.6592 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid d6e28377-407c-4543-93f1-f5ad43208e78))
+    (pin "2" (uuid 507ececb-e8fb-408d-86a9-b7acb53f30ac))
+    (pin "3" (uuid eba56300-6a1b-4622-8924-0c17640718fd))
+    (pin "4" (uuid 04dd2b87-52a5-439b-9de7-5b0913fef838))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "SW1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:V_BAT") (at 137.16 138.8872 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 86046a3c-e4b8-4914-927a-0d56b6f51866)
+    (property "Reference" "#PWR0125" (at 137.16 138.8872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "V_BAT" (at 137.16 135.0772 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 137.16 138.8872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 138.8872 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid df5d6b35-c052-4a25-b8e5-54a997172df0))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "#PWR0125") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:GND") (at 177.8 85.5472 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bc956644-01e0-4712-b34f-32a9d61aff28)
+    (property "Reference" "#PWR0121" (at 177.8 85.5472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 177.8 91.8972 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 177.8 85.5472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 177.8 85.5472 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid d3e3c944-1eb1-4ac3-b6b9-3d37a65e9c67))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "#PWR0121") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_0_N-MOSFET") (at 149.86 83.0072 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid cf0e3e3a-84cc-4c87-bbf9-329489ff0a1f)
+    (property "Reference" "Q1" (at 151.13 82.7532 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "2.1V" (at 152.4 85.5472 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:NDS351AN" (at 149.86 83.0072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 149.86 83.0072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ROHS" "YES" (at 144.272 74.8792 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "Nexperia USA Inc." (at 144.272 77.4192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "2.1V" (at 144.272 77.4192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "NX7002BKR" (at 144.272 77.4192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 150°C" (at 144.272 77.4192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "SOT-23-3" (at 144.272 77.4192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "https://assets.nexperia.com/documents/data-sheet/NX7002BK.pdf" (at 144.272 77.4192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "D" (uuid 05848d39-f17b-461c-b0cc-9d4277e78705))
+    (pin "G" (uuid 015be1d1-9cea-4058-a0f6-f561d04efcb5))
+    (pin "S" (uuid b19e1d44-f7a9-42bd-b9d5-983c8dcfbf3f))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_0_171857-0003") (at 180.34 77.9272 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid eb2a2892-53b4-49a4-a890-4501727a4879)
+    (property "Reference" "J1" (at 185.42 75.3872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "171857-0003" (at 185.42 88.0872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:171857-0003" (at 180.34 77.9272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 180.34 77.9272 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DATASHEET LINK" "https://componentsearchengine.com//171857-0003.pdf" (at 179.832 75.3872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUSER2 PART NUMBER" "538-171857-0003" (at 179.832 75.3872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUSER2 PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=538-171857-0003" (at 179.832 75.3872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER_NAME" "Molex" (at 179.832 75.3872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER_PART_NUMBER" "" (at 179.832 75.3872 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "Molex" (at 179.832 72.8472 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "171857-0003" (at 179.832 72.8472 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "1x3" (at 179.832 72.8472 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 1b8455d4-6f0d-48c1-8676-922a5c07ac7d))
+    (pin "2" (uuid 1ce931f5-6b3a-4a86-99bf-12b89ac8c7a1))
+    (pin "3" (uuid 96c3bfcd-9f78-4e9e-a350-0775778bfbd9))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1003V") (at 137.16 146.5072 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f6d7e06b-6db0-46c2-8fe3-1a4cef13b208)
+    (property "Reference" "R5" (at 137.922 146.2532 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "100k" (at 137.922 148.7932 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 137.16 146.5072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 137.16 146.5072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "Panasonic Electronic Components" (at 136.144 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "100k" (at 136.144 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 155°C" (at 136.144 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "0805 (2012 Metric)" (at 136.144 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0002+ERJ6ENF1003V+7+WW" (at 136.144 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "ERJ-6ENF1003V" (at 136.144 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 136.144 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 794637b3-cdd0-4fa0-910c-afaea13fcbfc))
+    (pin "2" (uuid 15cf5e36-7e75-42f4-b711-71ee1fec4922))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:system_SSR_control_1_ERJ-6ENF1400V") (at 111.76 146.5072 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f8793b56-8a29-4910-9b3a-0a1441734b7e)
+    (property "Reference" "R4" (at 112.522 146.2532 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "140" (at 112.522 148.7932 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AltiumImport:SMD-0805-RES" (at 111.76 146.5072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 111.76 146.5072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "YAGEO" (at 110.744 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "140" (at 110.744 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-55°C ~ 155°C" (at 110.744 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE / CASE" "0805 (2012 Metric)" (at 110.744 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "RC0805FR-07140RL" (at 110.744 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET LINK" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" (at 110.744 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "YES" (at 110.744 140.9192 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 01c06018-4a76-4fa0-8908-a11988890599))
+    (pin "2" (uuid 8a5e36b7-0da2-405c-ae5c-0483b87bbe75))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/d2748488-1aa2-4890-bfa9-60c09f864312"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+)

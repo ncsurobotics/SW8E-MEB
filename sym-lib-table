@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "MEB-altium-import")(type "KiCad")(uri "${KIPRJMOD}/MEB-altium-import.kicad_sym")(options "")(descr ""))
+)
