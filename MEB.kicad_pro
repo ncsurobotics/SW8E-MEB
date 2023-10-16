@@ -500,6 +500,14 @@
   },
   "sheets": [
     [
+      "3aab6a70-cc66-4393-a750-92acad576aaa",
+      "Input Headers"
+    ],
+    [
+      "31cf28dd-aa46-4d0d-9cc3-216a5d7181ad",
+      "Output Headers"
+    ],
+    [
       "228e4997-23c1-4c21-939b-583cad26a5e3",
       ""
     ],
@@ -508,24 +516,16 @@
       "leak_sensor"
     ],
     [
-      "33bb8219-dcc3-47e5-a6ab-5e0a1cc34bb1",
-      "launchpad_interface"
-    ],
-    [
-      "fe31d1bc-e868-4f0a-9b02-74c506a96406",
-      "LEDs"
-    ],
-    [
       "d2748488-1aa2-4890-bfa9-60c09f864312",
       "system_SSR_control"
     ],
     [
-      "90a8e139-216e-4b02-83ea-4edb1f5f4c15",
-      "power_regulation"
+      "33bb8219-dcc3-47e5-a6ab-5e0a1cc34bb1",
+      "mcu_interface"
     ],
     [
-      "6f6f2f6b-13aa-4ed8-877c-93f250e5ca6e",
-      "temperature_sensor"
+      "90a8e139-216e-4b02-83ea-4edb1f5f4c15",
+      "power_regulation"
     ]
   ],
   "text_variables": {}
