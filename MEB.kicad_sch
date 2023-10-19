@@ -2809,6 +2809,23 @@
     )
   )
 
+  (sheet (at 19.05 127) (size 20.32 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fa265f0a-160e-4a62-aa89-b135824d6d77)
+    (property "Sheetname" "Temp_Sensor" (at 19.05 126.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "temp_sensor.kicad_sch" (at 19.05 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3" (page "8"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "#"))
   )
