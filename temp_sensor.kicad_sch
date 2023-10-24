@@ -272,6 +272,8 @@
     (uuid ea2697f4-6909-499f-ae76-b95069902e5f)
   )
 
+  (no_connect (at 161.29 104.14) (uuid 5d53e144-c151-48a5-b28c-59853f9386ee))
+
   (wire (pts (xy 102.87 128.27) (xy 102.87 129.54))
     (stroke (width 0) (type default))
     (uuid 041aeef4-54ca-4d91-a195-f91f22fee111)
@@ -365,6 +367,15 @@
     (uuid fea545f4-b43e-40e9-9cfd-5d219fbc77de)
   )
 
+  (hierarchical_label "SDA_TEMP" (shape bidirectional) (at 161.29 99.06 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 4fb0c8e6-73ee-4348-849e-56cc70b43c5f)
+  )
+  (hierarchical_label "SCL_TEMP" (shape input) (at 161.29 101.6 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d06a3bcc-212f-48b4-a314-13bd05d20db2)
+  )
+
   (symbol (lib_id "Sensor_Temperature:PCT2075DP") (at 151.13 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07fd66fb-5811-4dc3-94a1-c5082b4b533f)
@@ -423,6 +434,31 @@
     )
   )
 
+  (symbol (lib_id "MEB-altium-import:GND") (at 151.13 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2cbc59d1-196e-49f2-937c-d61c1c4526df)
+    (property "Reference" "#PWR027" (at 151.13 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 151.13 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 151.13 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 151.13 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid bd3a9292-86fd-4865-aaa5-adef3c1ece0a))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/fa265f0a-160e-4a62-aa89-b135824d6d77"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_US") (at 102.87 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fdefda0-cae4-4054-b093-df211ff0d729)
@@ -444,6 +480,31 @@
       (project "MEB"
         (path "/228e4997-23c1-4c21-939b-583cad26a5e3/fa265f0a-160e-4a62-aa89-b135824d6d77"
           (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MEB-altium-import:3V3") (at 151.13 93.98 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 45a4496f-010b-453a-9e2e-cc09577cdbf2)
+    (property "Reference" "#PWR026" (at 151.13 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "3V3" (at 151.13 88.9 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 151.13 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 151.13 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid dcffd7f5-3b34-4fa0-8733-77cae80aa2f1))
+    (instances
+      (project "MEB"
+        (path "/228e4997-23c1-4c21-939b-583cad26a5e3/fa265f0a-160e-4a62-aa89-b135824d6d77"
+          (reference "#PWR026") (unit 1)
         )
       )
     )
