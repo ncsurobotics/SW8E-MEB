@@ -1500,6 +1500,14 @@
     (uuid fe4c5bc2-4938-42d1-a8b2-74ddf1be86cc)
   )
 
+  (text_box "Diodes need to be changed to something with a lower forward voltage.\nTherefore Diode resistors also need to be changed.\n"
+    (at 204.47 96.52 0) (size 26.67 15.24)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid ab0f84f0-c159-4f46-a09d-ab88c253908b)
+  )
+
   (text "VBAT In Header" (at 102.87 25.4 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 49a8ac50-e99a-46db-b7b8-ed3800787ba0)
@@ -2542,7 +2550,7 @@
     (property "Value" "USB_B_Micro" (at 83.82 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 87.63 130.81 0)
+    (property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" (at 87.63 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 130.81 0)
