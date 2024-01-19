@@ -1741,7 +1741,7 @@
     (property "Value" "4.7u" (at 210.82 145.161 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 207.9752 148.59 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8" (at 207.9752 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 144.78 0)

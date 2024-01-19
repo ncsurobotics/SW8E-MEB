@@ -1026,7 +1026,7 @@
     (property "Value" "10u" (at 48.26 76.581 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 45.4152 80.01 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8" (at 45.4152 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 76.2 0)
