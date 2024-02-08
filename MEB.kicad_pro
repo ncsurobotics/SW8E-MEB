@@ -55,25 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_issues|140115572|84154016|223880bd-9526-43f3-8bd2-1a8d3a814908|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|128233120|119735600|d9742d16-995a-4528-b510-c68c7c88d2cc|70bd6283-9a7b-47b1-94f8-bcd69299ba13",
-        "silk_overlap|131483100|118545610|2cf5daf1-bd3b-4bd0-86bd-9034edc49d2e|b5193f9d-8bc5-4fe5-8e99-60fef0ad7fa4",
-        "silk_overlap|137297600|105702100|b53faee8-b7aa-414a-aa6f-ea5fea29a53a|a87fd293-4042-4917-b1e2-c64ff26c401b",
-        "silk_overlap|137297600|110909100|563d4349-0a13-44d3-9b8e-41c5e1a673a1|a87fd293-4042-4917-b1e2-c64ff26c401b",
-        "silk_overlap|139511600|105702100|b53faee8-b7aa-414a-aa6f-ea5fea29a53a|63e2918e-42ed-4058-a914-85cc3394843c",
-        "silk_overlap|139511600|110909100|563d4349-0a13-44d3-9b8e-41c5e1a673a1|63e2918e-42ed-4058-a914-85cc3394843c",
-        "silk_overlap|139547600|105702100|63e2918e-42ed-4058-a914-85cc3394843c|b53faee8-b7aa-414a-aa6f-ea5fea29a53a",
-        "silk_overlap|146549110|126085600|42ca9f9a-c4b5-40fc-a79f-203f011a8e34|b1d272a2-9275-45f0-800c-4360884de75d",
-        "silk_overlap|147739100|129185620|a4b5b787-6292-4ba7-ad0b-a6d91ca3ab0c|ea3f11b2-0261-49bf-97b9-5a2bb3c36458",
-        "silk_overlap|149327099|114655600|ec1835fd-a269-4fff-ae7f-d82bf7660122|b373bdb6-db77-46c0-ba15-6f9e3091173e",
-        "silk_overlap|161281110|84175600|ba3fd1c7-27c3-4147-83ec-2b2c53e42038|a2c2c712-afc2-4789-bc1b-3a042ce535b2",
-        "silk_overlap|161863584|93734225|424645a2-5cda-4296-8cc0-e5a87a8247ed|4b9ce6a8-1d3b-4003-970c-f3d3daae0331",
-        "silk_overlap|162471100|87275620|595ec377-326f-456c-91f6-49cb39e5859e|6c8d6faf-d8ee-4634-91c1-355700ba9b52",
-        "silk_overlap|166807252|88874600|7a80d224-d7a7-4f24-b496-239bbe116edc|7c1c8f41-5c85-40fc-90c8-71fe7f4a9908",
-        "silk_overlap|167631110|84175600|2480d4d5-0d98-4789-bf85-6447f61907a2|bde542c8-0d8d-42cf-8992-e1a91b589c01",
-        "silk_overlap|168821100|87275620|5ebd4b5f-4aa8-49d0-9996-3799b75c2009|e7979ed5-e984-431a-ba7e-c44e2986814a"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -475,7 +457,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -501,7 +483,7 @@
   "sheets": [
     [
       "3aab6a70-cc66-4393-a750-92acad576aaa",
-      "Input Headers"
+      "input_headers"
     ],
     [
       "fa265f0a-160e-4a62-aa89-b135824d6d77",
@@ -509,7 +491,7 @@
     ],
     [
       "31cf28dd-aa46-4d0d-9cc3-216a5d7181ad",
-      "Output Headers"
+      "output_headers"
     ],
     [
       "228e4997-23c1-4c21-939b-583cad26a5e3",

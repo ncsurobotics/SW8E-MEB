@@ -1,0 +1,89 @@
+Info: Processing symbol 'R7:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R14:'.
+Info: Processing symbol 'R13:'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R10:'.
+Info: Processing symbol 'R9:'.
+Info: Processing symbol 'R8:'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'Q4:AltiumImport:FP-TP2104N3-G-MFG'.
+Info: Processing symbol 'Q3:AltiumImport:ONSC-TO-92-3-29-11'.
+Info: Processing symbol 'Q2:AltiumImport:ONSC-TO-92-3-29-11'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'Y1:'.
+Info: Processing symbol 'U4:Package_SO:TSSOP-8_3x3mm_P0.65mm'.
+Info: Processing symbol 'U3:SWLib:SOIC_30XS-R_FTD'.
+Info: Processing symbol 'U2:SWLib:PT0048A_N'.
+Info: Processing symbol 'U1:AltiumImport:FP-318H-MFG'.
+Info: Processing symbol 'SW2:AltiumImport:FSM2JSMA'.
+Info: Processing symbol 'SW1:AltiumImport:FSM2JSMA'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'C2:AltiumImport:FP-TAJA-MFG'.
+Info: Processing symbol 'R24:'.
+Info: Processing symbol 'R23:'.
+Info: Processing symbol 'R22:'.
+Info: Processing symbol 'R21:'.
+Info: Processing symbol 'R20:'.
+Info: Processing symbol 'R19:'.
+Info: Processing symbol 'R18:'.
+Info: Processing symbol 'R17:'.
+Info: Processing symbol 'D3:AltiumImport:0805_A'.
+Info: Processing symbol 'C9:'.
+Info: Processing symbol 'C10:'.
+Info: Processing symbol 'C8:'.
+Info: Processing symbol 'C11:'.
+Info: Processing symbol 'C7:'.
+Info: Processing symbol 'C12:'.
+Info: Processing symbol 'C6:'.
+Info: Processing symbol 'D1:AltiumImport:0805_A'.
+Info: Processing symbol 'C5:'.
+Info: Processing symbol 'D2:AltiumImport:0805_A'.
+Info: Processing symbol 'D4:AltiumImport:0805_A'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'D5:AltiumImport:0805_A'.
+Info: Processing symbol 'D6:AltiumImport:0805_A'.
+Info: Processing symbol 'J9:AltiumImport:HDR2X4'.
+Info: Processing symbol 'J8:Connector_USB:USB_Micro-B_GCT_USB3076-30-A'.
+Info: Processing symbol 'Q1:AltiumImport:NDS351AN'.
+Info: Processing symbol 'J7:'.
+Info: Processing symbol 'J6:AltiumImport:171857-0003'.
+Info: Processing symbol 'J5:AltiumImport:SHDR4W99P0X254_1X4_1001X635X1105P'.
+Info: Processing symbol 'J3:AltiumImport:171857-0003'.
+Info: Processing symbol 'J2:AltiumImport:SHDR2W99P0X254_1X2_493X635X818P'.
+Info: Processing symbol 'J1:AltiumImport:171857-0003'.
+Info: Processing symbol 'F2:AltiumImport:FP-0466-MFG'.
+Info: Processing symbol 'C1:AltiumImport:FP-TAJA-MFG'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Error: Cannot add C5 (no footprint assigned).
+Error: Cannot add C6 (no footprint assigned).
+Error: Cannot add C7 (no footprint assigned).
+Error: Cannot add R24 (no footprint assigned).
+Error: Cannot add Y1 (no footprint assigned).
+Error: Cannot add R23 (no footprint assigned).
+Error: Cannot add C8 (no footprint assigned).
+Error: Cannot add R22 (no footprint assigned).
+Error: Cannot add R21 (no footprint assigned).
+Error: Cannot add C9 (no footprint assigned).
+Error: Cannot add R20 (no footprint assigned).
+Error: Cannot add R19 (no footprint assigned).
+Error: Cannot add C10 (no footprint assigned).
+Error: Cannot add R18 (no footprint assigned).
+Error: Cannot add R17 (no footprint assigned).
+Error: Cannot add C11 (no footprint assigned).
+Error: Cannot add C12 (no footprint assigned).
+Error: Cannot add R14 (no footprint assigned).
+Error: Cannot add R13 (no footprint assigned).
+Error: Cannot add R10 (no footprint assigned).
+Error: Cannot add R9 (no footprint assigned).
+Error: Cannot add R8 (no footprint assigned).
+Error: Cannot add J7 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 23.
